@@ -66,6 +66,7 @@ public class RequestEngine
     }
   }
 
+  // TODO: implement with https
   public static byte[] xmlRequest(XmlRequest xmlRequest)
   {
     try
