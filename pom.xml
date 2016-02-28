@@ -18,6 +18,10 @@
         </license>
     </licenses>
 
+    <scm>
+        <url>https://github.com/sagalasan/EveRequest</url>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.slf4j</groupId>
