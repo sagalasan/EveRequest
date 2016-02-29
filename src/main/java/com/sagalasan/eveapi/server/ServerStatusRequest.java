@@ -13,12 +13,9 @@
    See the License for the specific language governing permissions and
    limitations under the License.
  */
-package eveapi.server;
+package com.sagalasan.eveapi.server;
 
-import eveapi.ArgPair;
-import eveapi.XmlRequest;
-
-import java.util.List;
+import com.sagalasan.eveapi.XmlRequest;
 
 /**
  * Created by sagalasan on 2/28/16.

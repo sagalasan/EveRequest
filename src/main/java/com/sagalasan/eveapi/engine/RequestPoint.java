@@ -13,12 +13,9 @@
    See the License for the specific language governing permissions and
    limitations under the License.
  */
-package eveapi.engine;
+package com.sagalasan.eveapi.engine;
 
-import eveapi.server.ServerStatusRequest;
-import org.slf4j.Logger;
-
-import java.util.Arrays;
+import com.sagalasan.eveapi.server.ServerStatusRequest;
 
 /**
  * Created by sagalasan on 2/27/16.

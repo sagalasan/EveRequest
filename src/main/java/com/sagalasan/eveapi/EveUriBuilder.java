@@ -13,7 +13,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
  */
-package eveapi;
+package com.sagalasan.eveapi;
 
 /**
  * Created by sagalasan on 2/5/16.

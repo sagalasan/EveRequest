@@ -13,32 +13,30 @@
    See the License for the specific language governing permissions and
    limitations under the License.
  */
-package eveapi;
+package com.sagalasan.eveapi;
 
 /**
- * Created by sagalasan on 2/4/16.
+ * Created by sagalasan on 2/5/16.
  */
-public class EveApiKey
+public class ArgPair<E>
 {
-  private final int keyId;
-  private final String vCode;
+  private final String key;
+  private final E argument;
 
-  public static final String keyIdKey = "KeyID";
-  public static final String vCodeKey = "vCode";
-
-  public EveApiKey(final int keyId, final String vCode)
+  public ArgPair(final String key, final E argument)
   {
-    this.keyId = keyId;
-    this.vCode = vCode;
+    this.key = key;
+    this.argument = argument;
   }
 
-  public final int getKeyId()
+  public String getUriArg()
   {
-    return keyId;
+    return key + "=" + argument.toString();
   }
 
-  public final String getVCode()
+  public static void main(String[] args)
   {
-    return vCode;
+    ArgPair<Integer> argPair = new ArgPair<>("Hello", 12434);
+    System.out.println(argPair.getUriArg());
   }
 }

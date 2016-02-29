@@ -13,9 +13,9 @@
    See the License for the specific language governing permissions and
    limitations under the License.
  */
-package eveapi.engine;
+package com.sagalasan.eveapi.engine;
 
-import eveapi.XmlRequest;
+import com.sagalasan.eveapi.XmlRequest;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
